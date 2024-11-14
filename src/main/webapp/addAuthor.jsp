@@ -12,17 +12,20 @@
 </head>
 <body>
 <h1>Add Author</h1>
-<a href="/authors">Authors</a> | <a href="index.jsp">MAin</a> <br>
+<a href="/authors">Authors</a> | <a href="index.jsp">Main</a> <br>
 
 <form action="/addAuthor" method="post">
-  Name: <input type="text" name="name"><br>
-  Surname: <input type="text" name="surname"><br>
-  Phone: <input type="text" name="phone"><br>
- Gender: <select name="gender">
-  <option value="MALE">MALE</option>
-  <option value="FEMALE">FEMALE</option>
-</select ><br>
-  <input type="submit" value="ADD">
+    Name: <input type="text" name="name"><br>
+    Surname: <input type="text" name="surname"><br>
+    Phone: <input type="text" name="phone"><br>
+    Date Of Birthday: <input type="date" name="dob"><br>
+    GENDER: <select name="gender">
+    <option value="MALE">MALE</option>
+    <option value="FEMALE">FEMALE</option>
+</select><br>
+    <input type="submit" value="ADD">
+
 </form>
+
 </body>
 </html>
